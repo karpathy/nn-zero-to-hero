@@ -25,10 +25,19 @@ We implement a bigram character-level language model, which we will further comp
 
 ---
 
-(ongoing...)
+**Lecture 3: The spelled-out intro to language modeling: building makemore. PART 2: MLP**
+
+We implement a multilayer perceptron (MLP) character-level language model. In this video we also introduce many basics of machine learning (e.g. model training, learning rate tuning, hyperparameters, evaluation, train/dev/test splits, under/overfitting, etc.).
+
+- [YouTube video lecture](https://youtu.be/TCH_1BHY58I)
+- [Jupyter notebook files](lectures/makemore/makemore_part2_mlp.ipynb)
+- [makemore Github repo](https://github.com/karpathy/makemore)
 
 ---
 
+ongoing...
+
+---
 
 **License**
 
