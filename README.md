@@ -25,12 +25,22 @@ We implement a bigram character-level language model, which we will further comp
 
 ---
 
-**Lecture 3: The spelled-out intro to language modeling: building makemore. PART 2: MLP**
+**Lecture 3: Building makemore Part 2: MLP**
 
 We implement a multilayer perceptron (MLP) character-level language model. In this video we also introduce many basics of machine learning (e.g. model training, learning rate tuning, hyperparameters, evaluation, train/dev/test splits, under/overfitting, etc.).
 
 - [YouTube video lecture](https://youtu.be/TCH_1BHY58I)
 - [Jupyter notebook files](lectures/makemore/makemore_part2_mlp.ipynb)
+- [makemore Github repo](https://github.com/karpathy/makemore)
+
+---
+
+**Lecture 4: Building makemore Part 3: Activations & Gradients, BatchNorm**
+
+We dive into some of the internals of MLPs with multiple layers and scrutinize the statistics of the forward pass activations, backward pass gradients, and some of the pitfalls when they are improperly scaled. We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network. We learn why training deep neural nets can be fragile and introduce the first modern innovation that made doing so much easier: Batch Normalization. Residual connections and the Adam optimizer remain notable todos for later video.
+
+- [YouTube video lecture](https://youtu.be/P6sfmUTpUmc)
+- [Jupyter notebook files](lectures/makemore/makemore_part3_bn.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
 
 ---
