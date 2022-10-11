@@ -45,6 +45,18 @@ We dive into some of the internals of MLPs with multiple layers and scrutinize t
 
 ---
 
+**Lecture 5: Building makemore Part 4: Becoming a Backprop Ninja**
+
+We take the 2-layer MLP (with BatchNorm) from the previous video and backpropagate through it manually without using PyTorch autograd's loss.backward(). That is, we backprop through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table. Along the way, we get an intuitive understanding about how gradients flow backwards through the compute graph and on the level of efficient Tensors, not just individual scalars like in micrograd. This helps build competence and intuition around how neural nets are optimized and sets you up to more confidently innovate on and debug modern neural networks.
+
+I recommend you work through the exercise yourself but work with it in tandem and whenever you are stuck unpause the video and see me give away the answer. This video is not super intended to be simply watched. The exercise is [here as a Google Colab](https://colab.research.google.com/drive/1WV2oi2fh9XXyldh02wupFQX0wh5ZC-z-?usp=sharing). Good luck :)
+
+- [YouTube video lecture](https://youtu.be/q8SA3rM6ckI)
+- [Jupyter notebook files](lectures/makemore/makemore_part4_backprop.ipynb)
+- [makemore Github repo](https://github.com/karpathy/makemore)
+
+---
+
 ongoing...
 
 ---
