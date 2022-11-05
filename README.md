@@ -25,12 +25,34 @@ We implement a bigram character-level language model, which we will further comp
 
 ---
 
-**Lecture 3: The spelled-out intro to language modeling: building makemore. PART 2: MLP**
+**Lecture 3: Building makemore Part 2: MLP**
 
 We implement a multilayer perceptron (MLP) character-level language model. In this video we also introduce many basics of machine learning (e.g. model training, learning rate tuning, hyperparameters, evaluation, train/dev/test splits, under/overfitting, etc.).
 
 - [YouTube video lecture](https://youtu.be/TCH_1BHY58I)
 - [Jupyter notebook files](lectures/makemore/makemore_part2_mlp.ipynb)
+- [makemore Github repo](https://github.com/karpathy/makemore)
+
+---
+
+**Lecture 4: Building makemore Part 3: Activations & Gradients, BatchNorm**
+
+We dive into some of the internals of MLPs with multiple layers and scrutinize the statistics of the forward pass activations, backward pass gradients, and some of the pitfalls when they are improperly scaled. We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network. We learn why training deep neural nets can be fragile and introduce the first modern innovation that made doing so much easier: Batch Normalization. Residual connections and the Adam optimizer remain notable todos for later video.
+
+- [YouTube video lecture](https://youtu.be/P6sfmUTpUmc)
+- [Jupyter notebook files](lectures/makemore/makemore_part3_bn.ipynb)
+- [makemore Github repo](https://github.com/karpathy/makemore)
+
+---
+
+**Lecture 5: Building makemore Part 4: Becoming a Backprop Ninja**
+
+We take the 2-layer MLP (with BatchNorm) from the previous video and backpropagate through it manually without using PyTorch autograd's loss.backward(). That is, we backprop through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table. Along the way, we get an intuitive understanding about how gradients flow backwards through the compute graph and on the level of efficient Tensors, not just individual scalars like in micrograd. This helps build competence and intuition around how neural nets are optimized and sets you up to more confidently innovate on and debug modern neural networks.
+
+I recommend you work through the exercise yourself but work with it in tandem and whenever you are stuck unpause the video and see me give away the answer. This video is not super intended to be simply watched. The exercise is [here as a Google Colab](https://colab.research.google.com/drive/1WV2oi2fh9XXyldh02wupFQX0wh5ZC-z-?usp=sharing). Good luck :)
+
+- [YouTube video lecture](https://youtu.be/q8SA3rM6ckI)
+- [Jupyter notebook files](lectures/makemore/makemore_part4_backprop.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
 
 ---
