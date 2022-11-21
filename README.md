@@ -57,9 +57,16 @@ I recommend you work through the exercise yourself but work with it in tandem an
 
 ---
 
-ongoing...
+**Lecture 6: Building makemore Part 5: Building WaveNet**
+
+We take the 2-layer MLP from previous video and make it deeper with a tree-like structure, arriving at a convolutional neural network architecture similar to the WaveNet (2016) from DeepMind. In the WaveNet paper, the same hierarchical architecture is implemented more efficiently using causal dilated convolutions (not yet covered). Along the way we get a better sense of torch.nn and what it is and how it works under the hood, and what a typical deep learning development process looks like (a lot of reading of documentation, keeping track of multidimensional tensor shapes, moving between jupyter notebooks and repository code, ...).
+
+- [YouTube video lecture](https://youtu.be/t3YJ5hKiMQ0)
+- [Jupyter notebook files](lectures/makemore/makemore_part5_cnn1.ipynb)
 
 ---
+
+Ongoing...
 
 **License**
 
