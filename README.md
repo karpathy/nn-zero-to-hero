@@ -23,6 +23,11 @@ We implement a bigram character-level language model, which we will further comp
 - [Jupyter notebook files](lectures/makemore/makemore_part1_bigrams.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
 
+**Supplementary links**
+
+* [Python + Numpy tutorial from CS231n](https://cs231n.github.io/python-numpy-tutorial/)
+* [PyTorch tutorial on Tensors](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html)
+* [Introduction to PyTorch](https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html)
 ---
 
 **Lecture 3: Building makemore Part 2: MLP**
@@ -33,6 +38,11 @@ We implement a multilayer perceptron (MLP) character-level language model. In th
 - [Jupyter notebook files](lectures/makemore/makemore_part2_mlp.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
 
+**Supplementary links**
+
+* [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+* A blog post about [PyTorch Internals](http://blog.ezyang.com/2019/05/pytorch-internals/)
+
 ---
 
 **Lecture 4: Building makemore Part 3: Activations & Gradients, BatchNorm**
@@ -42,6 +52,13 @@ We dive into some of the internals of MLPs with multiple layers and scrutinize t
 - [YouTube video lecture](https://youtu.be/P6sfmUTpUmc)
 - [Jupyter notebook files](lectures/makemore/makemore_part3_bn.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
+
+**Supplementary links**
+
+* [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
+* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+* [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+* [Rethinking "Batch" in BatchNorm](https://arxiv.org/abs/2105.07576)
 
 ---
 
@@ -55,6 +72,13 @@ I recommend you work through the exercise yourself but work with it in tandem an
 - [Jupyter notebook files](lectures/makemore/makemore_part4_backprop.ipynb)
 - [makemore Github repo](https://github.com/karpathy/makemore)
 
+**Supplementary links**
+
+* [Yes you should understand backprop](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b) (blog post)
+* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+* [Bessel's Correction](https://mathcenter.oxford.emory.edu/site/math117/besselCorrection/)
+* [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+
 ---
 
 **Lecture 6: Building makemore Part 5: Building WaveNet**
@@ -64,6 +88,11 @@ We take the 2-layer MLP from previous video and make it deeper with a tree-like 
 - [YouTube video lecture](https://youtu.be/t3YJ5hKiMQ0)
 - [Jupyter notebook files](lectures/makemore/makemore_part5_cnn1.ipynb)
 
+**Supplementary links**
+
+* [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
+* [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+
 ---
 
 
@@ -72,6 +101,12 @@ We take the 2-layer MLP from previous video and make it deeper with a tree-like 
 We build a Generatively Pretrained Transformer (GPT), following the paper "Attention is All You Need" and OpenAI's GPT-2 / GPT-3. We talk about connections to ChatGPT, which has taken the world by storm. We watch GitHub Copilot, itself a GPT, help us write a GPT (meta :D!) . I recommend people watch the earlier makemore videos to get comfortable with the autoregressive language modeling framework and basics of tensors and PyTorch nn, which we take for granted in this video.
 
 - [YouTube video lecture](https://www.youtube.com/watch?v=kCc8FmEb1nY). For all other links see the video description.
+
+**Supplementary links**
+
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+* [Introducing ChatGPT](https://openai.com/blog/chatgpt) (blog post)
 
 ---
 
